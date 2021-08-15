@@ -1,0 +1,125 @@
+body{
+    background-color:  #E0E8FF;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.contenedor{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    bottom: 27rem;
+}
+
+.imagen{
+    height: auto;
+    width: 25rem;
+}
+
+.cuerpo{
+    overflow: hidden;
+    height: 35.5rem;
+    width:25rem;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 1rem;
+}
+
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 0.5px 0.2px black;
+
+}
+
+.parrafo p{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1em;
+    color: grey;
+    text-align: center;
+}
+
+.plan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#f4f6ff;
+    width: 19rem;
+    align-self: center;
+    margin-left: 2.5rem;
+    margin-right: 0.5rem;
+    padding: 0.7rem;
+}
+
+.icon{
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+
+}
+.plan-text{
+    margin-right: 3rem;
+}
+
+h2{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.9em;
+    text-shadow: 0.5px 0.2px black;
+
+}
+
+.plan p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.9em;
+    color:grey;
+}
+
+.change{
+    background-color: #f4f6ff;
+    border: none;
+    color: blueviolet;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    margin-right: 1rem ;
+}
+
+.payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.pagar{
+    background-color: rgb(130, 39, 214);
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0.5rem;
+    padding: 1rem;
+    border: none;
+    box-shadow: 0.5px 2px 2px grey;
+    border-radius: 5px ;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+}
+
+.cancelar{
+    background-color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0.5rem;
+    padding: 0.6rem;
+    border: none;
+    color: black;
+    font-weight:bolder;
+    text-shadow:1px 0.2px;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+}
